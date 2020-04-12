@@ -4,8 +4,7 @@ Without card-view : Custom layout implementation for collapse and expand view us
 <img src="app/src/main/res/drawable/app_preview_one.png" width="250" height="400"> <img src="app/src/main/res/drawable/app_preview_two.png" width="250" height="400">
 
 # Please see first "activity_main.xml" and then try the following code:
-Here "btn_colExp" is a "Button", "layout_colExpHeader"/"layout_exp"/"layout_col" are "Linear Layout", "textMedCategory"/"textMedTime" are "TextView"
-type object holding respective IDs from "activity_main.xml" file.
+Here "btn_colExp" is a "Button", "layout_colExpHeader"/"layout_exp"/"layout_col" are "Linear Layout", "textMedCategory"/"textMedTime" are "TextView" type objects holding respective IDs from "activity_main.xml" file.
 
 ```java
 btn_colExp.setOnClickListener(new View.OnClickListener() {
@@ -31,4 +30,4 @@ btn_colExp.setOnClickListener(new View.OnClickListener() {
             }
         });
 ```
-# Enjoy!
+Enjoy!
